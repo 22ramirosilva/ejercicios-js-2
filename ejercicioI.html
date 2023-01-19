@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 - I</title>
+</head>
+<body>
+    
+    <!-- Determinar si un año dado es bisiesto -->
+
+    <script>
+        let año = parseInt(prompt("Ingrese un año"))
+
+        if((año % 4 === 0 && año % 100 !== 0) || año % 400 === 0) {
+            alert("Es un año bisiesto");
+        } else {
+            alert("No es un año bisiesto");
+        }
+
+    </script>
+</body>
+</html>
